@@ -100,13 +100,6 @@ builtin_unset(unset_args, &my_env);
 - `strdup()`: String'i tamamen kopyalamak için
 - `strcmp()`: String karşılaştırma için
 
-### Kısıtlamalar
-- Global değişken yok
-- `extern` kullanımı yok
-- `for` döngüsü yok (sadece `while`)
-- Ternary operator yok
-- Her fonksiyon 25 satırın altında
-
 ### Derleme
 ```bash
 gcc -o minishell_test minishell_builtins.c
